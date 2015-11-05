@@ -1,0 +1,13 @@
+module DoubleLinkedListApp {
+   struct Pessoa {
+	string nome;
+	long idade;
+   };
+  interface DoubleLinkedList {
+    boolean add(in Pessoa pessoa);   	
+    oneway void addPosition(in long posicao,in Pessoa pessoa);
+    Pessoa get(in long posicao);
+    Pessoa remove(in long posicao);
+    oneway void shutdown();
+  };
+};

@@ -1,0 +1,4 @@
+# Antes de Startar o servidor execute
+$ tnameserv -ORBInitialPort 1050
+
+
